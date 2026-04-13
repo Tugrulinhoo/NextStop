@@ -1,0 +1,138 @@
+# NextStop
+A mobile app that alerts users before their metro stop and shows remaining stops using location tracking.
+
+#🚇 MetroStop Alarm
+
+MetroStop Alarm, kullanıcıların inecekleri durağı kaçırmalarını önlemek için geliştirilmesi planlanan bir mobil uygulamadır. Kullanıcı hedef durağı seçer ve uygulama hedef durağa yaklaşınca alarm verir ve kalan durak sayısını gösterir.
+
+Bu proje özellikle metro kullanan insanların yanlış durakta inmelerini engellemeyi amaçlar.
+
+---
+
+## 🎯 Projenin Amacı
+
+Metro yolculuğu sırasında:
+
+- yanlış durakta inmeyi önlemek
+- hedef durağa yaklaşınca bildirim vermek
+- kalan durak sayısını göstermek
+- kullanıcıya konum bazlı yardımcı olmak
+
+---
+
+## 📱 Planlanan Özellikler
+
+- Hedef metro durağı seçme
+- Kalan durak sayısını gösterme
+- Hedef durağa yaklaşınca alarm verme
+- Metro hattı seçebilme
+- Harita üzerinden konum takibi
+- Arka planda çalışabilme
+- Offline çalışma desteği (gelecek sürümlerde)
+
+---
+
+## 🧠 Uygulama Nasıl Çalışacak?
+
+Uygulama şu verileri kullanacaktır:
+
+- Kullanıcının konumu (GPS)
+- Metro hat bilgileri
+- Durak verileri
+
+Sistem:
+
+1. Kullanıcı hedef durağı seçer
+2. Uygulama mevcut konumu analiz eder
+3. Kalan durak sayısını hesaplar
+4. Hedef durağa yaklaşınca alarm verir
+
+---
+
+## 🏙 İlk Desteklenecek Şehir
+
+İlk sürüm:
+
+İstanbul Metro Hatları
+
+İlerleyen sürümlerde farklı şehirler eklenebilir.
+
+---
+
+## 🛠 Planlanan Teknolojiler
+
+Mobil uygulama geliştirme:
+
+- Flutter (öncelikli seçenek)
+
+Harita sistemi:
+
+- Google Maps API
+veya
+- OpenStreetMap
+
+Konum sistemi:
+
+- GPS Location Services
+
+---
+
+## 🗺 Roadmap (Geliştirme Planı)
+
+Faz 1
+
+- Proje planının hazırlanması
+- Durak verilerinin araştırılması
+
+Faz 2
+
+- Metro hat verilerinin eklenmesi
+- Konum sistemi kurulumu
+
+Faz 3
+
+- Hedef durak seçme sistemi
+
+Faz 4
+
+- Kalan durak hesaplama sistemi
+
+Faz 5
+
+- Alarm ve bildirim sistemi
+
+Faz 6
+
+- Arayüz geliştirme ve testler
+
+---
+
+## 👥 Hedef Kullanıcılar
+
+- Metro kullanan öğrenciler
+- Günlük işe giden yolcular
+- Şehri yeni tanıyan kişiler
+- Turistler
+
+---
+
+## 🚀 Projenin Gelecek Hedefleri
+
+- Çok şehir desteği
+- Çoklu dil desteği
+- Akıllı rota önerileri
+- Yapay zekâ destekli tahmini varış süresi
+
+---
+
+## 📌 Proje Durumu
+
+Şu anda planlama aşamasındadır.
+
+Geliştirme süreci ilerleyen aylarda başlayacaktır.
+
+
+
+
+
+
